@@ -1,5 +1,4 @@
 {
-    "BasicInfo":{
 		  "FullName":"SULEIMAN AHAMED MAMMAN",
 		  "address":"Flat 1 Elder Owhor Avenue Elekahia Port Harcourt Rivers State Nigeria.",
 		  "phoneNumber":"+ 2348130069255",
@@ -9,8 +8,24 @@
 		  "youtube":"https://www.youtube.com/watch?v=9j4zJFuYv78",
 		  "Summary":"Experience and hungry Full-Stack Developer with more than 3 years experience in software engineering industry",
 		  "Skills": [ { "programming":[ "JAVA", " C#", " PHP", " JAVASCRIPT", " JSON", " AJAX", " JQUERY", " HTML5", " CSS3", " and REST API" ] }
-					]
-		  }
-
+					],
+		  "WorkExperience": [
+				{ "Experience":"June 2017 - Part Time Software Engineer Instructor at National Institute of Information Technology (NIIT), Port Harcourt Center Nigeria.", "Responsibilities":[ "Providing high quality teaching using C#, Java, PHP, HTML5, CSS, JavaScript and Asp.net, assessment and support the students' learning and supervise the student project." ] },
+				{ "Experience":"May 2017 - Till Date: Remote Full-Stack Developer at LOMOSOFT Nigeria Limited", "Responsibilities":[ "Work with the engineering team and product owner to prioritize requirements and engineering backlog and API development using JSON, PHP and Swagger for the documentation.", "Address vulnerability and security issues in application development using the industries best standards.", "Lead in developing estate management system for the organization, deploy in Abuja/Nigeria" ] },
+				{ "Experience":"August 2016 - April 2017: Lead Software Application Engineer at Darhtech Abuja Nigeria", "Responsibilities":[ "Developing fully functional web applications for employer's clients in accordance with specifications and current industry standards.", "Lead front-end developer in architecture and development of large-scale front-end validations.", "Build and Install API, manage and maintain of web applications for clients.", "Architect and developed API powering Web and Android applications, & document with swagger.", "Manage client expectations and document business requirements by weekly meeting with the MD and management team. In addition, Represent employer in IT related engagement.", "Offer basic IT training to clients and proxies of the employer and how the client can use/control new developed application.", "Participated in testing, development, testing and debugging of new capabilities and systems." ] },
+				{ "Experience":"November 2015 - June 2016: Full-Stack Developer at Ami-tech Computers Mina Nigeria (NYSC).", "Responsibilities":[ "Designed and developed web, desktop, and school management system using Java, C#, PHP, JavaScript, Ajax, HTML, CSS and MySQL.", "Coordinated with other technical teams for development of portal solutions to support API.", "Provided assistance and guidance to team members on development areas, timely delivery of business plans and latest technologies.", "Reviewed business requirements and supported system requirements.", "Performed unit testing and peer review for the development team.", "Coordinated with other teams to ensure smooth delivery of the project." ] },
+				{ "Experience":"February 2012 - July 2014: Software Developer at Apphia Solutions Ltd Port Harcourt Nigeria.", "Responsibilities":[ "Implemented procedures for gathering user requirements and translating them into technical solutions of specific projects.", "Assisted the project team in customizing and developing designs and programs for all application systems.", "Developed innovative software solutions in collaboration with other programmers.", "Provided technical assistance for software architecture and project design on all assigned projects." ] }
+			  ],
+		 "Project":"February 2017 - April 2017: Founder and Developer of   SportKet  www.sportket.com ",
+		 "ProjectDetails":"SportKet is one of my potential project that i did to solve a potential problem in sport industry. Sportket help talented young footballer get certified for trails. In addition is an easy way for football players to showcase/share their skills all over the world and get hired.  It also connect clubs, agent and players together all over the world and make the work of scout much easier.",
+		
+		 "Education": [ 
+						{ "Degrees":"2015 - Bachelors Degree, Information Technology and Business Information System. Middlesex University London (Second Class Upper Honours)."  },
+						{ "Degrees":"2014 - Professional Diploma in Information Technology. NIIT (Software Engineering-Net Technologies) (Excellent)."  },
+						{ "Degrees":"2014 - Advance Diploma in Information Technology. NIIT (Software Engineering) (Outstanding)."  },
+						{ "Degrees":"2013 - Honors Diploma in Information Technology. NIIT (Software Engineering) (Outstanding)."  }
+						
+					],
+		 "HubbyandInterests":"I am passionate about programming. A computer with a processing power, plenty of RAM, internet access, headphones and it is a party for me. I love to take code to production and love to see someone served by my innovation or idea. I want to be exposed to evolving global best practices, and work with smart people; people that understand me, people that love solving potential problem for millions of people around the world. Finally, I love learning latest technology, playing soccer and video games."
+		
 }
-

@@ -35,4 +35,4 @@
             }
             request.send(null);
             results.innerHTML = "Getting Resume......";
-        }
+}
