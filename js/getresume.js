@@ -8,31 +8,40 @@
             request.onreadystatechange = function() {
                 if(request.readyState == 4 && request.status == 200) {
                     var resume = JSON.parse(request.responseText);
-					_("Skills").innerHTML = "";
-                    for(var obj in resume){
-                        //results.innerHTML += resume[obj].FullName+" is "+resume[obj].age+"<hr />";
-						_("fName").innerHTML = resume[obj].FullName;
-						_("address").innerHTML = resume[obj].address;
-						_("mobile").innerHTML = resume[obj].phoneNumber;
-						_("email").innerHTML = resume[obj].emailaddress;
-						_("linkedin").innerHTML = resume[obj].linkedin;
-						_("github").innerHTML = resume[obj].github;
-						_("youtube").innerHTML = resume[obj].youtube;
-						_("Summary").innerHTML = resume[obj].Summary;
-						//_("Skills").innerHTML = resume[obj].cars[0].models[0];
-
-				   
-					for (var i in resume[obj].Skills) {
-						_("Skills").innerHTML  += resume[obj].Skills[i].programming + "<br>";
-					}
-					
-					for (var j in resume[obj].Skills) {
-							_("Skills").innerHTML  += resume[obj].Skills[i].WebServices[j] + "<br>";
+						_("fName").innerHTML = resume.FullName;
+						_("address").innerHTML = resume.address;
+						_("mobile").innerHTML = resume.phoneNumber;
+						_("email").innerHTML = resume.emailaddress;
+						_("linkedin").innerHTML = resume.linkedin;
+						_("github").innerHTML = resume.github;
+						_("youtube").innerHTML = resume.youtube;
+						_("Summary").innerHTML = resume.Summary;
+						_("Skills").innerHTML = ""; 
+						for (var i in resume.Skills) {
+							_("Skills").innerHTML  += resume.Skills[i].programming + "<br>";
 						}
-				   }
+						
+						var r = "";
+						for (var i in resume.WorkExperience) {
+
+							r += "<h2>" + resume.WorkExperience[i].Experience + "</h2>";
+							for (var j in resume.WorkExperience[i].Responsibilities) {
+								r += resume.WorkExperience[i].Responsibilities[j] + "<br>";
+							}
+						}
+					_("WorkExperience").innerHTML  = r;
+					_("ProjectName").innerHTML = resume.Project;
+					_("ProjectDetails").innerHTML = resume.ProjectDetails;
+					_("Educationqualifications").innerHTML = ""; 
+						for (var e in resume.Education) {
+							_("Educationqualifications").innerHTML  += resume.Education[e].Degrees + "<br>";
+						}
+					_("HubbyInterests").innerHTML = resume.HubbyandInterests; 
 				   
                 }
+				
+				
             }
             request.send(null);
             results.innerHTML = "Getting Resume......";
-}
+        }
