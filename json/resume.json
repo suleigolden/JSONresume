@@ -1,0 +1,16 @@
+{
+    "BasicInfo":{
+		  "FullName":"SULEIMAN AHAMED MAMMAN",
+		  "address":"Flat 1 Elder Owhor Avenue Elekahia Port Harcourt Rivers State Nigeria.",
+		  "phoneNumber":"+ 2348130069255",
+		  "emailaddress":"suleimamman@gmail.com",
+		  "linkedin":"https://www.linkedin.com/in/suleiman-mamman-ahamed-282a7b98/",
+		  "github":"https://github.com/suleigolden",
+		  "youtube":"https://www.youtube.com/watch?v=9j4zJFuYv78",
+		  "Summary":"Experience and hungry Full-Stack Developer with more than 3 years experience in software engineering industry",
+		  "Skills": [ { "programming":[ "JAVA", " C#", " PHP", " JAVASCRIPT", " JSON", " AJAX", " JQUERY", " HTML5", " CSS3", " and REST API" ] }
+					]
+		  }
+
+}
+
