@@ -1,0 +1,40 @@
+body {
+    font-family: Montserrat;
+    color: #333333;
+}
+.resume{
+	padding:30px;
+	text-align: justify;
+	border: 1px #5ec0ce solid;
+}
+.titile_head{
+    font-size: 3em;
+	color:#5ec0ce;
+    margin-bottom: 0;
+}
+.basicInfo{
+	text-align:center;
+}
+.contact-header {
+    font-weight: bold;
+	font-size: 20px;
+}
+.infortitle{
+	font-size: 2.1em;
+    display: block;
+	color:#5ec0ce;
+	margin-bottom: 0;
+    font-weight: bold;
+	}
+.experiancetitile{
+	font-size: 1.3em;
+    padding-bottom: 0;
+}
+.responsibilities{
+	font-size: 20px;
+    margin-bottom: 0;
+}
+p{
+	font-size: 20px;
+    margin-bottom: 0;
+}

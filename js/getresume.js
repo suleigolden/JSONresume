@@ -24,9 +24,9 @@
 						var r = "";
 						for (var i in resume.WorkExperience) {
 
-							r += "<h2>" + resume.WorkExperience[i].Experience + "</h2>";
+							r += "<h3 class='experiancetitile'>" + resume.WorkExperience[i].Experience + "</h3>";
 							for (var j in resume.WorkExperience[i].Responsibilities) {
-								r += resume.WorkExperience[i].Responsibilities[j] + "<br>";
+								r += "<li class='responsibilities'>" +resume.WorkExperience[i].Responsibilities[j] + "</li>";
 							}
 						}
 					_("WorkExperience").innerHTML  = r;
