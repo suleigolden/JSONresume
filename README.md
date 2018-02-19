@@ -16,4 +16,4 @@ Finally the index.html file call the display_Resume method automatically when yo
 
 #Online Display URL
 
-https://www.sportket.com/cv/
+https://havecv.com/resume/
